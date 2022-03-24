@@ -1,0 +1,29 @@
+body {
+    background-color: powderblue;
+    font-family: verdana, sans-serif;
+}
+
+ul {
+    list-style: none;
+    columns: 2;
+}
+
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    width: 600px;
+    background-color: royalblue;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.buttonbar {
+
+}
+
+.floatleft {
+
+}

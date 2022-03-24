@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="de-DE">
+<head>
+    <title>Gradle-Test</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/styles.css}"/>
+</head>
+<body>
+<div class="wrapper">
+    <h1>Gradle-Test</h1>
+
+    <form action="#" th:action="@{/aAction}" th:object="${generateForm}" method="post">
+        <select class="floatleft">
+            <option th:each="year : *{years}"
+                    th:value="${year}"
+                    th:text="${year}">YearText
+            </option>
+        </select>
+    </form>
+</div>
+</body>
+</html>
