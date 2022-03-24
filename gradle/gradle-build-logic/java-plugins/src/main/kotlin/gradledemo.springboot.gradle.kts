@@ -1,4 +1,3 @@
-import gradle.kotlin.dsl.accessors._a2b5453e3e3b9109085ee2e220dee1d1.bootBuildImage
 
 plugins {
     application
@@ -14,7 +13,7 @@ springBoot {
 
 tasks.bootBuildImage {
 //    setEnabled(true)
-//    imageName = "apoplan"
+//    imageName = "gradledemo"
     builder = "gcr.io/paketo-buildpacks/builder:latest"
 }
 
