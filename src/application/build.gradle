@@ -1,0 +1,9 @@
+plugins {
+    id "gradledemo.java-application"
+}
+
+dependencies {
+    implementation project(':gradle-demo-domain')
+    implementation project(':gradle-demo-webadapter')
+    testImplementation "org.springframework.boot:spring-boot-starter-test"
+}
