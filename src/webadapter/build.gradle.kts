@@ -17,3 +17,9 @@ dependencies{
     testCompileOnly("org.projectlombok:lombok:1.18.22")
     testAnnotationProcessor("org.projectlombok:lombok:1.18.22")
 }
+
+tasks.test {
+    useJUnitPlatform()
+    testLogging.events("passed", "skipped",
+            "failed")
+}
