@@ -1,5 +1,12 @@
 rootProject.name="Gradle Demo"
 
+pluginManagement{
+    repositories{
+        gradlePluginPortal()
+    }
+    includeBuild("gradle/gradle-build-logic")
+}
+
 dependencyResolutionManagement{
     repositories {
         mavenLocal()
